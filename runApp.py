@@ -1,10 +1,10 @@
 import dash 
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import dcc,html,dash_table
+#import dash_html_components as html
 from dash.dependencies import Input, Output, State
 import pandas as pd
 import os 
-import dash_table
+#import dash_table
 from datetime import date
 
 app = dash.Dash(__name__)
